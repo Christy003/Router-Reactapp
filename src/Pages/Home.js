@@ -1,9 +1,9 @@
-import  '../index.css'
-function Home() {
+import  '../index.css';
+function Home(props) {
     return (
         <div className="App">
-            <h2>Home Page</h2>
-            <h3>Welcome!</h3>
+            <h2>Home</h2>    
+            <h3>Welcome</h3>
         </div>
     );
 }

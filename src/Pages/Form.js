@@ -1,11 +1,10 @@
 import React from 'react';
 import '../App.css';
-import '../index.css';
-import Login from "../Components/Login";
-function Form() {
+import '../index.css'; import Login from "../Components/Login";
+function Form(props) {
     return (
         <div className="App">
-            <h1>Login Form</h1>
+            <h1>Login form</h1>
             <Login/>
         </div>
     );
