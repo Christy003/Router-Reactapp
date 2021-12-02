@@ -1,7 +1,8 @@
-import React from "react";
-function Button(props) {
-    return (
-        <button className="button">{props.value}</button>
-    );
+"use strict";
+exports.__esModule = true;
+var React = require("react");
+function Button(_a) {
+    var value = _a.value;
+    return (<button className="button">{value}</button>);
 }
-export default Button;
+exports["default"] = Button;

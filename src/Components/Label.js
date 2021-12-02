@@ -1,6 +1,7 @@
+"use strict";
+exports.__esModule = true;
+var react_1 = require("react");
 function Label(props) {
-    return (
-        <label > {props.label1}</label>
-    );
+    return (<label> {props.label1}</label>);
 }
-export default Label;
+exports["default"] = Label;
