@@ -1,9 +1,9 @@
 import React from 'react';
-import Button from './Button';
+import {Button} from './Button';
 import Label from './Label';
-import Input from './Input';
+import {Input} from './Input';
 import './../App.css';
-function Login(): JSX.Element {
+export function Login(): JSX.Element {
     return (
         <div className="Login">
             <Label label1="Username:"/><br/>
@@ -14,5 +14,3 @@ function Login(): JSX.Element {
         </div>
     );
 }
-
-export default Login;

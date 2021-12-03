@@ -3,9 +3,11 @@ interface Buttonprops{
     value:string;
 }
 
- function Button({value}:Buttonprops){
-    return( 
+ export function Button(props:Buttonprops): JSX.Element{
+     const {value}=props;
+    return(
+        
         <button className="button">{value}</button>
-        );
+    );  
+        
 }
-//export default Button;

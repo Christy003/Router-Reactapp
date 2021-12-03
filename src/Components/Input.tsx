@@ -1,12 +1,12 @@
 import * as React from "react";
-type props = {
+type Inputprops = {
    id: string,
    type: string,
    placeholder: string,
 }
-function Input(props: {id: string,type: string,placeholder: string,}): JSX.Element {
+export function Input(props:Inputprops){
+   const {id,type,placeholder}=props;
    return (
-      <input id={props.id} type={props.type} placeholder={props.placeholder} />
+      <input id={id} type={type} placeholder={placeholder} />
    );
 }
-export default Input;

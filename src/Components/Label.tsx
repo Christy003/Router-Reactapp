@@ -1,8 +1,12 @@
 import * as React from "react";
+interface Labelprops{
+    label1:string
+}
 
-function Label(props:{label1:string}): JSX.Element {
+function Label(props:Labelprops): JSX.Element {
+    const {label1}=props;
     return (
-        <label > {props.label1}</label>
+        <label > {label1}</label>
     );
 }
 export default Label;
